@@ -1,0 +1,392 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "59f2e79c-9e3c-4a52-a6b9-0c5f6f58d35d")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 74.93 21.59)
+		(size 36.83 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0f4372cc-23f6-4365-9a3a-328ce0842e03")
+		(property "Sheetname" "ETHER"
+			(at 74.93 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ETHER.kicad_sch"
+			(at 74.93 37.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "A"
+				(path "/59f2e79c-9e3c-4a52-a6b9-0c5f6f58d35d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 54.61)
+		(size 39.37 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "156f5591-d451-4a24-a44e-adad07c7198c")
+		(property "Sheetname" "CHIPKIT IO"
+			(at 72.39 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CHIPKIT IO.kicad_sch"
+			(at 72.39 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "A"
+				(path "/59f2e79c-9e3c-4a52-a6b9-0c5f6f58d35d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 54.61)
+		(size 45.72 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1965e4da-3400-4df9-8e37-add5aa8a5222")
+		(property "Sheetname" "connector Sheet"
+			(at 21.59 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector.kicad_sch"
+			(at 21.59 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "A"
+				(path "/59f2e79c-9e3c-4a52-a6b9-0c5f6f58d35d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 21.59)
+		(size 45.72 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "242505c4-b40a-4edb-98f1-732cff5024d3")
+		(property "Sheetname" "FPGA BANK"
+			(at 21.59 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA BANK.kicad_sch"
+			(at 21.59 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "A"
+				(path "/59f2e79c-9e3c-4a52-a6b9-0c5f6f58d35d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 23.495 119.38)
+		(size 40.64 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7e3f4283-a220-4428-b957-a19217223f25")
+		(property "Sheetname" "USB,UART"
+			(at 23.495 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB,UART.kicad_sch"
+			(at 23.495 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "A"
+				(path "/59f2e79c-9e3c-4a52-a6b9-0c5f6f58d35d"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 87.63)
+		(size 44.45 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c0381c78-7f89-4555-8dfb-23e3977606df")
+		(property "Sheetname" "Power regulation"
+			(at 21.59 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power regulation.kicad_sch"
+			(at 21.59 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "A"
+				(path "/59f2e79c-9e3c-4a52-a6b9-0c5f6f58d35d"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 88.265)
+		(size 39.37 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e7dd5444-def1-432f-8dbf-bd3e7ed6c036")
+		(property "Sheetname" "LED"
+			(at 121.92 87.5534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED.kicad_sch"
+			(at 121.92 105.3596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "A"
+				(path "/59f2e79c-9e3c-4a52-a6b9-0c5f6f58d35d"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 87.63)
+		(size 39.37 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc9f3c25-11c1-48a3-9cff-41a7558372ad")
+		(property "Sheetname" "power regulations"
+			(at 73.66 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power regulations_sch.kicad_sch"
+			(at 73.66 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "A"
+				(path "/59f2e79c-9e3c-4a52-a6b9-0c5f6f58d35d"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 54.61)
+		(size 40.64 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fcd97d35-7801-4356-9303-103612dfd081")
+		(property "Sheetname" "DDR3"
+			(at 121.92 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DDR3_sch.kicad_sch"
+			(at 121.92 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "A"
+				(path "/59f2e79c-9e3c-4a52-a6b9-0c5f6f58d35d"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
