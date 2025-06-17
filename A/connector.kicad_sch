@@ -989,7 +989,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EG1218_1"
+		(symbol "EG1218:EG1218"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1163,7 +1163,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "EG1218_1_0_0"
+			(symbol "EG1218_0_0"
 				(polyline
 					(pts
 						(xy -2.54 2.54) (xy -1.27 2.54)
@@ -1844,6 +1844,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 41.91) (xy 266.7 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b21c288-a084-49f3-a35c-11a4d422d1b7")
+	)
+	(wire
+		(pts
 			(xy 43.18 58.42) (xy 43.18 62.23)
 		)
 		(stroke
@@ -2254,6 +2264,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 41.91) (xy 261.62 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b21701b-5d06-464d-ae25-7a6167e950e4")
+	)
+	(wire
+		(pts
 			(xy 58.42 208.28) (xy 58.42 213.36)
 		)
 		(stroke
@@ -2461,16 +2481,6 @@
 			(type default)
 		)
 		(uuid "4b35528b-ab5e-4dc9-b3af-d5cadd2b47ed")
-	)
-	(wire
-		(pts
-			(xy 266.7 41.91) (xy 266.7 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d0df3ba-2663-402c-9210-dd2c14cb240a")
 	)
 	(wire
 		(pts
@@ -3081,16 +3091,6 @@
 			(type default)
 		)
 		(uuid "8fa83560-18a3-4d9e-b798-09b08d621cd0")
-	)
-	(wire
-		(pts
-			(xy 261.62 41.91) (xy 261.62 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "901462b1-c275-4fd1-832a-832c1900de90")
 	)
 	(wire
 		(pts
@@ -4290,7 +4290,7 @@
 			)
 		)
 	)
-	(global_label "SW3"
+	(global_label "S4"
 		(shape input)
 		(at 304.8 91.44 0)
 		(fields_autoplaced yes)
@@ -4302,7 +4302,7 @@
 		)
 		(uuid "23061a30-5238-45ce-88dc-a4f599218bf5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.6556 91.44 0)
+			(at 310.2042 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,7 +4840,7 @@
 			)
 		)
 	)
-	(global_label "SW2"
+	(global_label "S3"
 		(shape input)
 		(at 304.8 76.2 0)
 		(fields_autoplaced yes)
@@ -4852,7 +4852,7 @@
 		)
 		(uuid "db643152-66b0-4545-acdb-1e4b18956e33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.6556 76.2 0)
+			(at 310.2042 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +4994,7 @@
 			)
 		)
 	)
-	(global_label "SW0"
+	(global_label "S1"
 		(shape input)
 		(at 303.53 46.99 0)
 		(fields_autoplaced yes)
@@ -5006,7 +5006,7 @@
 		)
 		(uuid "f3613c70-51dc-4d73-93b3-5ad985cf0df9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 310.3856 46.99 0)
+			(at 308.9342 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5060,7 +5060,7 @@
 			)
 		)
 	)
-	(global_label "SW1"
+	(global_label "S2"
 		(shape input)
 		(at 303.53 62.23 0)
 		(fields_autoplaced yes)
@@ -5072,7 +5072,7 @@
 		)
 		(uuid "fa83352f-19da-4dea-b838-3dab310124ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 310.3856 62.23 0)
+			(at 308.9342 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5357,7 +5357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 294.64 91.44 0)
 			(effects
 				(font
@@ -5550,18 +5550,17 @@
 		)
 	)
 	(symbol
-		(lib_name "EG1218_1")
 		(lib_id "EG1218:EG1218")
-		(at 264.16 36.83 90)
+		(at 265.43 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1564fc37-7698-4265-9249-b31d625f6308")
-		(property "Reference" "SW0"
-			(at 270.51 35.5599 90)
+		(uuid "1118f60b-7a3d-4693-9979-69a56a9f665d")
+		(property "Reference" "S4"
+			(at 271.78 81.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +5569,7 @@
 			)
 		)
 		(property "Value" "EG1218"
-			(at 270.51 38.0999 90)
+			(at 271.78 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5579,7 +5578,7 @@
 			)
 		)
 		(property "Footprint" "EG1218:SW_EG1218"
-			(at 264.16 36.83 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5589,7 +5588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 36.83 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5598,7 +5597,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 36.83 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5607,7 +5606,7 @@
 			)
 		)
 		(property "MF" "E-Switch"
-			(at 264.16 36.83 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5617,7 +5616,7 @@
 			)
 		)
 		(property "DESCRIPTION" "Slide Switch SPDT Through Hole"
-			(at 264.16 36.83 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5627,7 +5626,7 @@
 			)
 		)
 		(property "PACKAGE" "None"
-			(at 264.16 36.83 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5637,7 +5636,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 264.16 36.83 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,7 +5646,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 264.16 36.83 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,7 +5656,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=eda"
-			(at 264.16 36.83 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5667,7 +5666,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 264.16 36.83 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,7 +5676,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=snap"
-			(at 264.16 36.83 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5687,7 +5686,7 @@
 			)
 		)
 		(property "MP" "EG1218"
-			(at 264.16 36.83 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5697,7 +5696,7 @@
 			)
 		)
 		(property "Description_1" "Slide Switch, EG Series, SPDT, Non-Shorting, ON-ON, 200mA DC, 30VDC, PC Pin | E-Switch EG1218"
-			(at 264.16 36.83 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5707,7 +5706,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 264.16 36.83 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +5716,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 264.16 36.83 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +5726,7 @@
 			)
 		)
 		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
-			(at 264.16 36.83 0)
+			(at 265.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,18 +5736,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "563430f9-d78f-48ab-8ba3-b8860d2bd325")
+			(uuid "05f80bc9-5e12-4391-b6cb-b80a80054d53")
 		)
 		(pin "3"
-			(uuid "5321d31a-6b12-4db2-ba2c-b9b78969e2f1")
+			(uuid "d1c682d5-e10a-4b7a-8622-c43ba3739703")
 		)
 		(pin "2"
-			(uuid "826f27c5-13a5-4502-9179-e5b1aa19e7cf")
+			(uuid "35ab5ccf-c6bb-488b-82bd-be2ccb44ab50")
 		)
 		(instances
 			(project ""
 				(path "/59f2e79c-9e3c-4a52-a6b9-0c5f6f58d35d/1965e4da-3400-4df9-8e37-add5aa8a5222"
-					(reference "SW0")
+					(reference "S4")
 					(unit 1)
 				)
 			)
@@ -5857,7 +5856,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 276.86 224.79 0)
 			(effects
 				(font
@@ -5934,7 +5933,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 269.24 224.79 0)
 			(effects
 				(font
@@ -6265,211 +6264,6 @@
 		)
 	)
 	(symbol
-		(lib_name "EG1218_1")
-		(lib_id "EG1218:EG1218")
-		(at 265.43 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ca22dcc-f1ff-4dda-9caa-ee0fd28106d6")
-		(property "Reference" "SW2"
-			(at 271.78 67.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "EG1218"
-			(at 271.78 69.8499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "EG1218:SW_EG1218"
-			(at 265.43 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 265.43 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "E-Switch"
-			(at 265.43 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "Slide Switch SPDT Through Hole"
-			(at 265.43 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "None"
-			(at 265.43 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 265.43 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 265.43 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=eda"
-			(at 265.43 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 265.43 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=snap"
-			(at 265.43 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "EG1218"
-			(at 265.43 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Slide Switch, EG Series, SPDT, Non-Shorting, ON-ON, 200mA DC, 30VDC, PC Pin | E-Switch EG1218"
-			(at 265.43 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 265.43 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "In Stock"
-			(at 265.43 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
-			(at 265.43 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6eb599d0-faf4-480c-ab19-cdec087dbffa")
-		)
-		(pin "3"
-			(uuid "b6d3b0f1-9654-4e6f-a908-61e499296405")
-		)
-		(pin "2"
-			(uuid "cc4d05ff-c41c-4bcc-a9e8-e94d8b6b3b42")
-		)
-		(instances
-			(project "A"
-				(path "/59f2e79c-9e3c-4a52-a6b9-0c5f6f58d35d/1965e4da-3400-4df9-8e37-add5aa8a5222"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 252.73 106.68 0)
 		(unit 1)
@@ -6713,7 +6507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 293.37 62.23 0)
 			(effects
 				(font
@@ -7150,7 +6944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 293.37 46.99 0)
 			(effects
 				(font
@@ -7648,7 +7442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 294.64 76.2 0)
 			(effects
 				(font
@@ -7983,6 +7777,210 @@
 		)
 	)
 	(symbol
+		(lib_id "EG1218:EG1218")
+		(at 264.16 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "799bea5a-90ab-4fe9-b821-a917a4cd3abf")
+		(property "Reference" "S2"
+			(at 270.51 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "EG1218"
+			(at 270.51 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EG1218:SW_EG1218"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Slide Switch SPDT Through Hole"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=eda"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=snap"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EG1218"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Slide Switch, EG Series, SPDT, Non-Shorting, ON-ON, 200mA DC, 30VDC, PC Pin | E-Switch EG1218"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba5bd476-88b2-47c7-bcc1-54b48f1349bb")
+		)
+		(pin "3"
+			(uuid "eb5e7c9d-23f4-4a52-83d4-99d778c80230")
+		)
+		(pin "2"
+			(uuid "d8d4e8b6-0049-4ba4-bbf5-7fb77565a7c9")
+		)
+		(instances
+			(project ""
+				(path "/59f2e79c-9e3c-4a52-a6b9-0c5f6f58d35d/1965e4da-3400-4df9-8e37-add5aa8a5222"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 85.09 53.34 90)
 		(unit 1)
@@ -8053,211 +8051,6 @@
 			(project "A"
 				(path "/59f2e79c-9e3c-4a52-a6b9-0c5f6f58d35d/1965e4da-3400-4df9-8e37-add5aa8a5222"
 					(reference "R211")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "EG1218_1")
-		(lib_id "EG1218:EG1218")
-		(at 265.43 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7df40fdd-a44b-492f-b47d-16666b1345c5")
-		(property "Reference" "SW3"
-			(at 271.78 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "EG1218"
-			(at 271.78 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "EG1218:SW_EG1218"
-			(at 265.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 265.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "E-Switch"
-			(at 265.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "Slide Switch SPDT Through Hole"
-			(at 265.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "None"
-			(at 265.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 265.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 265.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=eda"
-			(at 265.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 265.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=snap"
-			(at 265.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "EG1218"
-			(at 265.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Slide Switch, EG Series, SPDT, Non-Shorting, ON-ON, 200mA DC, 30VDC, PC Pin | E-Switch EG1218"
-			(at 265.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 265.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "In Stock"
-			(at 265.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
-			(at 265.43 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c3068cf-c613-4cab-a1fa-6e7a99ca6c65")
-		)
-		(pin "3"
-			(uuid "141b2f97-9a7f-40d8-9424-6d18b1e17da2")
-		)
-		(pin "2"
-			(uuid "57b56388-cfde-4907-923f-c7c6e7bb93b5")
-		)
-		(instances
-			(project "A"
-				(path "/59f2e79c-9e3c-4a52-a6b9-0c5f6f58d35d/1965e4da-3400-4df9-8e37-add5aa8a5222"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -9270,211 +9063,6 @@
 		)
 	)
 	(symbol
-		(lib_name "EG1218_1")
-		(lib_id "EG1218:EG1218")
-		(at 264.16 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a471c01-6b76-441f-86f7-51e81363989c")
-		(property "Reference" "SW1"
-			(at 270.51 52.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "EG1218"
-			(at 270.51 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "EG1218:SW_EG1218"
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "E-Switch"
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "Slide Switch SPDT Through Hole"
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "None"
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=eda"
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=snap"
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "EG1218"
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Slide Switch, EG Series, SPDT, Non-Shorting, ON-ON, 200mA DC, 30VDC, PC Pin | E-Switch EG1218"
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "In Stock"
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
-			(at 264.16 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3dacc4b-06bf-4b52-b194-e08e81f0e108")
-		)
-		(pin "3"
-			(uuid "50eb20a7-27bb-431a-ba40-b8caaea0da6c")
-		)
-		(pin "2"
-			(uuid "bbaada60-346d-4e86-ae6f-4dc906b53f0b")
-		)
-		(instances
-			(project "A"
-				(path "/59f2e79c-9e3c-4a52-a6b9-0c5f6f58d35d/1965e4da-3400-4df9-8e37-add5aa8a5222"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 91.44 203.2 90)
 		(unit 1)
@@ -9703,6 +9291,210 @@
 		)
 	)
 	(symbol
+		(lib_id "EG1218:EG1218")
+		(at 264.16 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9244b667-cf46-42b0-9f82-2f0ab226684d")
+		(property "Reference" "S1"
+			(at 270.51 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "EG1218"
+			(at 270.51 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EG1218:SW_EG1218"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Slide Switch SPDT Through Hole"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=eda"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=snap"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EG1218"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Slide Switch, EG Series, SPDT, Non-Shorting, ON-ON, 200mA DC, 30VDC, PC Pin | E-Switch EG1218"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ef5e200-466f-42aa-bf00-c6d294c6b782")
+		)
+		(pin "3"
+			(uuid "7da50b17-f195-4eb1-b029-6d8738f2fd6a")
+		)
+		(pin "2"
+			(uuid "924c77d2-bfaf-4091-b038-2780ca71cd04")
+		)
+		(instances
+			(project ""
+				(path "/59f2e79c-9e3c-4a52-a6b9-0c5f6f58d35d/1965e4da-3400-4df9-8e37-add5aa8a5222"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 246.38 105.41 180)
 		(unit 1)
@@ -9794,7 +9586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 283.21 181.61 0)
 			(effects
 				(font
@@ -9839,6 +9631,210 @@
 			(project ""
 				(path "/59f2e79c-9e3c-4a52-a6b9-0c5f6f58d35d/1965e4da-3400-4df9-8e37-add5aa8a5222"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EG1218:EG1218")
+		(at 265.43 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afb64c7d-83aa-48fc-8fd8-e1254afd77ca")
+		(property "Reference" "S3"
+			(at 271.78 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "EG1218"
+			(at 271.78 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EG1218:SW_EG1218"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "Slide Switch SPDT Through Hole"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "None"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=eda"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EG1218/E-Switch/view-part/?ref=snap"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "EG1218"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Slide Switch, EG Series, SPDT, Non-Shorting, ON-ON, 200mA DC, 30VDC, PC Pin | E-Switch EG1218"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/EG1218/?ref=eda"
+			(at 265.43 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "012ccddd-297d-4cdf-ac6d-d7c3c7b8e14a")
+		)
+		(pin "1"
+			(uuid "053d00e7-cfa8-4a06-a8d6-ef831560ff64")
+		)
+		(pin "3"
+			(uuid "ee674a81-0840-4651-ab4a-2bafbc2ba680")
+		)
+		(instances
+			(project ""
+				(path "/59f2e79c-9e3c-4a52-a6b9-0c5f6f58d35d/1965e4da-3400-4df9-8e37-add5aa8a5222"
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -10053,7 +10049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 284.48 208.28 0)
 			(effects
 				(font
@@ -10914,7 +10910,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 274.32 224.79 0)
 			(effects
 				(font
@@ -11066,7 +11062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 283.21 129.54 0)
 			(effects
 				(font
@@ -11142,7 +11138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 283.21 154.94 0)
 			(effects
 				(font
@@ -11504,7 +11500,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 271.78 224.79 0)
 			(effects
 				(font
